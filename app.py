@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # ---------- API endpoints ----------
-PLAYER_API = "https://player-info-ob54.vercel.app/player-info"
+PLAYER_API = "https://star-info-api.lovable.app/accinfo?uid="
 BANNER_API = "https://banner-api-self.vercel.app/profile"
 OUTFIT_API = "https://output-api-ob53-eight.vercel.app/outfit-image"
 
